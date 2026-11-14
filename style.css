@@ -414,8 +414,26 @@ body {
     color: var(--purple);
 }
 
+/* Resume Download Button */
 .resume-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
     margin-top: 5px;
+    border-radius: 35px;
+    background: linear-gradient(110deg, var(--cyan), var(--blue), var(--purple));
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0 0 25px rgba(0, 230, 184, 0.2);
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 35px rgba(0, 230, 184, 0.4);
 }
 
 /* Footer */
